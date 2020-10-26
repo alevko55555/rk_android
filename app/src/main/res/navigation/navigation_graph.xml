@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/hostFragment">
+
+
+
+    <fragment
+        android:id="@+id/hostFragment"
+        android:name="com.example.rk_android.ListFragment"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" >
+        <action
+            android:id="@+id/action_mainActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+        <action
+            android:id="@+id/action_hostFragment_to_secondFragment2"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.rk_android.SettingsActivity"
+        android:label="SettingsActivity" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.rk_android.secondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+</navigation>

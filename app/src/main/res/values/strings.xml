@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">rk_android</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings">Settings</string>
+    <string name="action_udate">Update</string>
+
+    <string name="low_value">lowValue</string>
+    <string name="high_value">highValue</string>
+    <string name="open_link">open site</string>
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>
